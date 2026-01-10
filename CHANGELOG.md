@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.1] - 2026-01-10
+
+### Fixed
+
+- **Plugin Template Path Issue** (Fixes #15)
+  - Templates weren't found when installed via plugin marketplace
+  - Plugin cache expected `planning-with-files/templates/` at repo root
+  - Added `planning-with-files/` folder at root level for plugin installs
+  - Kept `skills/planning-with-files/` for legacy `~/.claude/skills/` installs
+
+### Structure
+
+- `planning-with-files/` - For plugin marketplace installs
+- `skills/planning-with-files/` - For manual `~/.claude/skills/` installs
+
+---
+
 ## [2.1.0] - 2026-01-10
 
 ### Added

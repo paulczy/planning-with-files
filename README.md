@@ -16,7 +16,7 @@ A Claude Code plugin that transforms your workflow to use persistent markdown fi
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://code.claude.com/docs/en/plugins)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-green)](https://code.claude.com/docs/en/skills)
 [![Cursor Rules](https://img.shields.io/badge/Cursor-Rules-purple)](https://docs.cursor.com/context/rules-for-ai)
-[![Version](https://img.shields.io/badge/version-2.1.0-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
+[![Version](https://img.shields.io/badge/version-2.1.1-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
 
 ## Quick Install
 
@@ -42,7 +42,8 @@ See [docs/installation.md](docs/installation.md) for all installation methods.
 
 | Version | Features | Install |
 |---------|----------|---------|
-| **v2.1.0** (current) | Claude Code v2.1 compatible, SessionStart hook, PostToolUse hook, user-invocable | `/plugin install planning-with-files@planning-with-files` |
+| **v2.1.1** (current) | Fix plugin template paths | `/plugin install planning-with-files@planning-with-files` |
+| **v2.1.0** | Claude Code v2.1 compatible, SessionStart hook, PostToolUse hook, user-invocable | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
 | **v2.0.x** | Hooks, templates, scripts | See [releases](https://github.com/OthmanAdi/planning-with-files/releases) |
 | **v1.0.0** (legacy) | Core 3-file pattern | `git clone -b legacy` |
 
